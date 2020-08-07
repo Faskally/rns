@@ -22,7 +22,7 @@
 #' xp	
 #' giving the knot locations used to generate the basis.
 #'
-#' @reference
+#' @references
 #'
 #' @examples
 #'

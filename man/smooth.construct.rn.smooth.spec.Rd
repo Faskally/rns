@@ -35,3 +35,6 @@ internally by gam. To use for basis setup it is recommended to use
 \examples{
 
 }
+\references{
+
+}
