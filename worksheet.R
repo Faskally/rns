@@ -14,6 +14,9 @@
 # generate NAMESPACE and documentation
 devtools::document()
 
+# update readme
+rmarkdown::render("README.Rmd")
+
 # check package
 devtools::check()
 
