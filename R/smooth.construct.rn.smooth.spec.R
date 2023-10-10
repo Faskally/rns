@@ -22,12 +22,8 @@
 #' xp
 #' giving the knot locations used to generate the basis.
 #'
-#' @references
-#'
-#' @examples
-#'
-#' @export
-
+#' @importFrom mgcv smooth.construct
+#' @exportS3Method mgcv::smooth.construct rn.smooth.spec
 smooth.construct.rn.smooth.spec <- function (object, data, knots)
 {
   if (!is.null(object$id))

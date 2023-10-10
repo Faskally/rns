@@ -1,16 +1,14 @@
 Package: rns
-Version: 0.0-1
+Version: 0.0.2
 Date: 2020-08-07
 Title: Functions to fit river network smoothers
 Authors@R: c(person("Colin", "Millar", role = c("aut", "cre"),
                    email = "colin.millar@ices.dk"),
              person("Faye", "Jackson", role="aut"))
-Import: mgcv
+Depends: mgcv
 LazyData: yes
 Description: Functions to fit river network smoothers, ...
 License: file LICENSE
 URL: http://www.gov.scot/publications/scotland-river-temperature-monitoring-network-srtmn/
 Encoding: UTF-8
 RoxygenNote: 7.2.3
-Depends: 
-    R (>= 2.10)

@@ -16,10 +16,8 @@
 #' An object of class "rn.smooth" or a matrix mapping the coefficients of the
 #' river network smooth to the predictions for the nodes listed in data.
 #'
-#' @export
-#'
-#' @examples
-
+#' @importFrom mgcv Predict.matrix
+#' @exportS3Method mgcv::Predict.matrix rn.smooth
 Predict.matrix.rn.smooth <- function (object, data)
 {
   X <- object$xt$X[,ncol(object$xt$X) - object$bs.dim:1 + 1]
